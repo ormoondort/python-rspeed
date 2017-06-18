@@ -10,7 +10,7 @@ Basically, you have speed A and vector of direction that you use to move object.
 from python-rspeed import split_speed
 
 speed = 200
-dir = {x=100, y=300}
+dir = (100, 300)
 
 
 dspeed = split_speed(speed, dir)
